@@ -1,0 +1,25 @@
+#https://docs.oracle.com/en/database/oracle/machine-learning/oml-notebooks/omlug/run-python-notebook.html
+%sql
+select username as schema_name
+from sys.all_users
+order by username;
+
+%sql
+select object_name as table_name
+from all_objects t
+where object_type = 'TABLE'
+and owner = 'DIP'
+order by object_name
+
+%python
+import matplotlib.pyplot as plt
+import numpy as np
+
+list1 = np.random.rand(20)*300
+list2 = np.random.rand(20)*1000
+
+plt.subplot(1,2,1);
+plt.hist(list1);
+plt.subplot(1,2,2);
+plt.hist(list2);
+plt.show()
