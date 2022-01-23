@@ -1,0 +1,252 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sql\nselect * from SH.SALES;\n\n",
+      "user": "TESTUSER",
+      "dateUpdated": "2022-01-23T15:17:43+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/text",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "lineChart",
+              "height": 300.0,
+              "optionOpen": true,
+              "setting": {
+                "table": {
+                  "tableGridState": {
+                    "columns": [
+                      {
+                        "name": "PROD_ID0",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CUST_ID1",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "TIME_ID2",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CHANNEL_ID3",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "PROMO_ID4",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "QUANTITY_SOLD5",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "AMOUNT_SOLD6",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      }
+                    ],
+                    "scrollFocus": {},
+                    "selection": [],
+                    "grouping": {
+                      "grouping": [],
+                      "aggregations": [],
+                      "rowExpandedStates": {}
+                    },
+                    "treeView": {},
+                    "pagination": {
+                      "paginationCurrentPage": 1.0,
+                      "paginationPageSize": 250.0
+                    }
+                  },
+                  "tableColumnTypeState": {
+                    "names": {
+                      "PROD_ID": "number",
+                      "CUST_ID": "number",
+                      "TIME_ID": "date",
+                      "CHANNEL_ID": "number",
+                      "PROMO_ID": "number",
+                      "QUANTITY_SOLD": "number",
+                      "AMOUNT_SOLD": "number"
+                    }
+                  },
+                  "updated": false,
+                  "initialized": false,
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": true,
+                    "showPagination": true,
+                    "showAggregationFooter": true
+                  }
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "PROD_ID",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "CUST_ID",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "interrupted": false,
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1642949797092_2003980729",
+      "id": "paragraph_1642949797092_2003980729",
+      "dateCreated": "2022-01-23T14:56:37+0000",
+      "dateStarted": "2022-01-23T15:17:43+0000",
+      "dateFinished": "2022-01-23T15:17:44+0000",
+      "status": "READY"
+    },
+    {
+      "text": "%md\nHello world\n# Hello World\n## Hello World\n*Hello World*\n_Hello World_\n* Step1\n* Step2\n* Step2.1\n",
+      "user": "TESTUSER",
+      "dateUpdated": "2022-01-23T15:20:47+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/text",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cp\u003eHello world\u003c/p\u003e\n\u003ch1\u003eHello World\u003c/h1\u003e\n\u003ch2\u003eHello World\u003c/h2\u003e\n\u003cp\u003e\u003cem\u003eHello World\u003c/em\u003e\n\u003cbr  /\u003e\u003cem\u003eHello World\u003c/em\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eStep1\u003c/li\u003e\n\u003cli\u003eStep2\u003c/li\u003e\n\u003cli\u003eStep2.1\u003c/li\u003e\n\u003c/ul\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "interrupted": false,
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1642950479796_1067462402",
+      "id": "paragraph_1642950479796_1067462402",
+      "dateCreated": "2022-01-23T15:07:59+0000",
+      "dateStarted": "2022-01-23T15:20:48+0000",
+      "dateFinished": "2022-01-23T15:20:48+0000",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n",
+      "user": "TESTUSER",
+      "dateUpdated": "2022-01-23T15:17:55+0000",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "interrupted": false,
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1642951075906_1556629492",
+      "id": "paragraph_1642951075906_1556629492",
+      "dateCreated": "2022-01-23T15:17:55+0000",
+      "status": "READY"
+    }
+  ],
+  "name": "first",
+  "id": "2726610",
+  "defaultInterpreterGroup": "spark",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {
+    "isRunning": false
+  }
+}
