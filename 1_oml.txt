@@ -23,3 +23,7 @@ plt.hist(list1);
 plt.subplot(1,2,2);
 plt.hist(list2);
 plt.show()
+
+
+%sql
+select * from SH.SALES;
