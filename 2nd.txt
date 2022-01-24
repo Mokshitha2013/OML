@@ -24,3 +24,28 @@ oml_dr.dtypes
 cr =oml.cursor()
 cr.execute("select column_name, data_type from all_tab_columns where table_name = 'names'")
 cr.fetchall()
+cr.close()
+oml_dr2 = oml.sync(table = 'names')
+oml_dr2.shape
+print(oml_dr2)
+
+oml_dr3 = oml.push(df)
+
+print(oml_dr3)
+
+sorted(oml.dir())
+oml.drop(table="names")
+
+oml.dir()
+
+
+
+%python
+
+oml.dir()
+
+
+%python
+del oml_dr,oml_dr2,oml_dr3
+
+oml.dir()
