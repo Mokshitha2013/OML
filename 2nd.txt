@@ -1,0 +1,26 @@
+https://docs.oracle.com/en/database/oracle/machine-learning/oml4py/1/mlpar/oml4py-dwcs-api.pdf
+
+%python
+
+import oml
+#oml.isconnected()
+oml.check_embed()
+#print(dir(oml));
+#print(dir(oml.DataFrame));
+
+#print(help(oml));
+
+import pandas as pd
+data = [['tom', 10], ['nick', 15], ['juli', 14]]
+df = pd.DataFrame(data, columns = ['Name', 'Age'])
+df
+
+
+oml_dr = oml.create(df,"names")
+
+%python
+oml_dr.shape
+oml_dr.dtypes
+cr =oml.cursor()
+cr.execute("select column_name, data_type from all_tab_columns where table_name = 'names'")
+cr.fetchall()
